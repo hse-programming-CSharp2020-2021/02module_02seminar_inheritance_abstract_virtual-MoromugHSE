@@ -128,6 +128,14 @@ namespace Task_01
     //реализуйте класс Ashes по аналогии с Lentil, используя auto-свойства!
     class Ashes : Something
     {
+        private double volume;
+
+        public Ashes(double volume)
+        {
+            Volume = volume;
+        }
+
+        public double Volume { get; set; }
         
     }
 }
